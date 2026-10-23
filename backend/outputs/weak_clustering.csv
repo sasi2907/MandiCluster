@@ -1,0 +1,8 @@
+commodity,records,number_of_clusters,silhouette,smallest_cluster,largest_cluster,largest_to_smallest_ratio,quality_flag
+White Muesli,3,2,0.0685217129869991,1,2,2.0,Weak separation
+Fig(Anjura/Anjeer),3,2,0.0825369695625804,1,2,2.0,Weak separation
+poppy seeds,3,2,0.0843965451686196,1,2,2.0,Weak separation
+nigella,3,2,0.1330814357056729,1,2,2.0,Weak separation
+Season Leaves,4,2,0.1672867833512631,1,3,3.0,Weak separation
+Groundnut pods(raw),4,2,0.20188023871443,1,3,3.0,Weak separation
+Rubber,3,2,0.241993230990658,1,2,2.0,Weak separation

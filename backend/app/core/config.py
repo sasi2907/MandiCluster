@@ -33,6 +33,12 @@ class Settings(BaseSettings):
             host=self.db_host,
             port=self.db_port,
             database=self.db_name,
+            query=(
+                {"sslmode": "require"}
+                if self.db_host != "localhost"
+                and self.db_host != "127.0.0.1"
+                else {}
+            ),
         )
 
 

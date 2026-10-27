@@ -3,7 +3,7 @@ from fastapi import APIRouter
 router = APIRouter()
 
 
-@router.get("/")
+@router.get("/", methods=["GET", "HEAD"])
 def home():
     return {
         "project": "MandiCluster",
